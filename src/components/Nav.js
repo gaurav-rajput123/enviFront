@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useGlobalContext } from "./context"
-
+import logo from './logo.PNG'
 function Nav() {
 
 
@@ -23,7 +23,7 @@ function Nav() {
 
     <figure>
 
-    <img src={process.env.PUBLIC_URL + "logo.PNG"} alt="logo" />
+    <img src={logo} alt="logo" />
     <figcaption>Flowering the Future</figcaption>
     </figure>
     </Link>
