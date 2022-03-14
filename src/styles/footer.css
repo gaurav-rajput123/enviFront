@@ -1,0 +1,216 @@
+.desktop8{
+    font-family: 'Rufina';
+}
+   
+.desktop8 .contactUs-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+}
+.desktop8 .contactUs
+{
+flex:1;
+font-family:'Rufina';
+font-style: normal;
+font-weight: normal;
+text-align: center;
+
+
+}
+.desktop8 h1
+{
+    font-family:'Rufina';
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+
+margin-left: 8vw;
+margin-top: 2%;
+color: #162A46;
+}
+.desktop8 h3
+{
+    font-family:'Rufina';
+    font-size:1.5rem;
+    font-weight: 400;
+    margin-left: 9vw;
+    text-align: center;
+    color:#828282;
+}
+
+
+.contactUs h4
+{
+    
+font-style: normal;
+font-weight: bold;
+position: relative;
+bottom: 7vw;
+margin-left: 15vw;
+width:30vw;
+font-size: 1.5rem;
+color: #4F4F4F;
+}
+
+
+
+.contactUs img
+{
+    width:10%;
+    position: relative;
+    right:15vw;
+}
+#location-pin{
+    width: 7%;
+}
+
+
+.desktop8 .contact-form{
+    flex: 1;
+    text-align: center;
+  
+
+    
+}
+.contact-form input,textarea
+{
+width: 60%;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-bottom: 14px;
+  border: none;
+  border-bottom:2px solid #162A46;
+  outline: none;
+  background-color: #f5f5f5;
+  
+}
+.contact-form input::placeholder,.contact-form textarea::placeholder{
+    font-family: 'Rufina';
+font-style: normal;
+font-weight: normal;
+}
+
+
+.contact-form button
+{
+    background-color: #162A46;
+    color:#fff;
+    height: 10vh;
+    width: 40%;
+    font-size: 150%;
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: normal;
+    border-radius: 10px/10px;
+
+}
+.contact-form button:hover
+{
+    cursor:pointer;
+}
+.social
+{
+    display: inline-flex;
+    margin-left: 5vw;
+    align-items: center;
+}
+.social i{
+    margin: 0 2vw;
+}
+
+
+.legal
+{
+    color: #fff;
+    background-color: #162A46;
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+}
+.legal p
+{
+    padding-top: 3%;
+    margin-left: 4%;
+    display: inline-block;
+}
+.legal ul
+{
+    position: relative;
+    margin-left: 60%;
+    bottom: 53px;
+}
+.legal li
+{
+    display: inline-block;
+    margin-left: 5%;
+    padding-right: 3%;
+    border-right: solid gray;
+}
+
+
+
+
+
+
+@media screen and (min-width:320px ) and (max-width:960px){
+    .desktop8{
+        padding-top: 6vh;
+    }
+    .desktop8 .contactUs-wrapper
+    {
+        flex-direction: column;
+    }
+    .contactUs h1{
+        margin-left: 2vw;
+    }
+    .contactUs img{
+        position: static;
+    }
+    .contactUs h3{
+        margin-left: 1vw;
+    }
+    .contactUs h4{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .contact-form textarea{
+        width:29vw;
+        margin-left: 1vw;
+    }
+    .contact-form button{
+        width:40vw;
+        height: 5vh;
+    }
+    /****overrrding fontawesome style*/
+    .fab
+    {
+        font-size: 1.5rem;
+
+    }
+    /*---------------------------------*/
+   
+    .legal p{
+        padding-right: 40vw;
+    }
+    .legal ul{
+        display: block;
+        columns: 3;
+        margin-left: -4vw;
+        margin-top: 2vw;
+        bottom:0px;
+        
+      
+    }
+    .legal li{
+        border: none;
+        margin-left: 2px;
+        padding-right: 0px;
+        width:20vw;
+        display: block;
+        
+    }
+
+}

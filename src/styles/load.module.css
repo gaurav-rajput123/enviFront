@@ -1,0 +1,32 @@
+.spinner 
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border:solid 16px rgba(137, 190, 239, 0.5) ;
+    border-top-color:#162A46;
+    animation: spin 2s linear infinite;
+    position: relative;
+    top: 40vh;
+    left: 45vw;
+
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:960px) {
+    .spinner{
+        left:30vw
+    }
+    
+}
+
+
+/*  */
+/* rgba(137, 190, 239, 0.1) */

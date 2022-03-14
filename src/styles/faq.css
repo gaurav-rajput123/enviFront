@@ -1,0 +1,88 @@
+.faq {
+    
+    
+  
+    width: 100%;
+    
+}
+.faq img{
+    top:7vw;
+    position: relative;
+    width:50%;
+    height: 30%;
+}
+.Qbox
+{
+    display: flex;
+    flex-direction: column;
+}
+.mbutton{
+    float: right;
+    margin-right:4%;
+}
+.faq h1{
+    text-align: center;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #4F4F4F;
+    display: inline-block;
+    position: relative;
+    left:5%;
+    bottom:15vw;
+    font-size: 450%;
+}
+.faq h2{
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    font-size: 2.25rem;
+}
+.Qbox h4{
+    font-family: Libre Baskerville;
+font-style: normal;
+font-weight: normal;
+color: #828282;
+margin-left: 4%;
+margin-bottom: 2%;
+font-size: large;
+}
+.Qbox h5
+{
+    font-family: Lora;
+font-style: normal;
+font-weight: normal;
+color: #4F4F4F;
+background-color: rgba(137, 190, 239, 0.1);
+margin-left: 4%;
+margin-bottom: 2%;
+margin-right: 4%;
+text-align: justify;
+font-size: medium;
+
+}
+.mbutton:hover{
+    background-color:rgba(137, 190, 239, 0.5);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+@media screen and (min-width:320px ) and (max-width:960px)
+{
+    .faq{
+        top:0;
+    }
+    .faq h1{
+        font-size: 3rem;
+        display: block;
+        text-align: center;
+        bottom:0;
+        left: 0px;
+        height: auto;
+    }
+    .faq img{
+        height: 0;
+    }
+}

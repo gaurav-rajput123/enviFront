@@ -1,0 +1,169 @@
+.desktop2
+{
+    padding: 2%;
+    /* background-color: rgba(137, 190, 239,0.1) ; */
+}
+.desktop2 h1{
+margin:auto;
+text-align: center;
+font-family: roboto;
+font-style: normal;
+font-weight: normal;
+color: #162A46;
+font-size: 6rem;
+
+}
+
+.desktop2 .imageWrapper
+{
+    
+    
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    width: 95vw;
+   
+
+    
+}
+
+.desktop2 .road-img{
+   
+    flex: 1;
+    height: 70vh;
+    flex-basis: 20vh;
+    border-radius: 24px;
+    border: 1px solid black;
+}
+.desktop2 .road-img img{
+
+    text-align: left;
+    /* max-width: 100%; */
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+}
+.desktop2 .road-text
+{
+    flex:1;
+    font-family: Fondamento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    padding-top:1rem;
+    padding-right: 1rem;
+   
+}
+.road-text h2
+{
+    font-size: 3rem;
+    text-align: center;
+    font-family: roboto;
+}
+.road-text h6
+{
+    text-align: center;
+    color: #828282;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    overflow-wrap: break-word;
+    white-space: normal;
+    padding: 0 17%;
+    font-size: 1.87rem;
+}
+.desktop2 h3
+{
+    margin :2% 0;
+    font-size: 2.425rem;
+    font-family: Lora;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+}
+.desktop2 ul{
+    column-count: 2;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: 2%;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    list-style-position: outside;
+    list-style: none;
+    
+}
+
+.desktop2 li::before{
+    content: '■';
+   
+    padding-right: 1vw;
+    color: #162A46;
+    font-size: 40px; 
+
+
+}
+.desktop2 li:nth-child(2)::before,.desktop2 li:first-child::before{
+    margin-left: -3vw;
+}
+.desktop2 li:nth-child(2){
+    margin-top: 5vh;
+
+}
+
+.desktop2 li:nth-child(2),.desktop2 li:first-child{
+    padding-right: 7vw;
+}
+.desktop2 li:nth-child(4),.desktop2 li:nth-child(3)
+{
+    margin-left: 4vw;
+    margin-top:5vh;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:320px ) and (max-width:960px)
+{
+    .desktop2 h1
+    {
+        font-size: 3rem;
+    }
+   .desktop2 .imageWrapper{
+       flex-direction: column;
+       margin-top: 2%;
+       margin-left: 4%;
+       justify-content: center;
+   }
+   .imageWrapper .road-img
+   {
+       height: 50vh;
+   }
+   .desktop2 ul{
+       margin-left: 2%;
+   }
+   .desktop2 li:nth-child(2)::before,.desktop2 li:first-child::before{
+    margin-left: -5.5vw;
+}
+   .desktop2 li::before{
+       font-size: 20px;
+       margin-left: -6vw;
+   }
+   .desktop2 li:nth-child(2),.desktop2 li:first-child{
+    padding-right: 3vw;
+}
+   .desktop2 li{
+       padding-top: 10%;
+   }
+   .desktop2 h3{
+       font-size: 1.875rem;
+
+   }
+
+}

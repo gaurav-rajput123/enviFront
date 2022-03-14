@@ -1,0 +1,103 @@
+
+.desktop3 h1{
+    margin: 1% auto;
+    text-align: left;
+    padding-left: 10%;
+    margin-bottom: 2%;
+    font-family: Libre Caslon Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem;
+}
+.desktop3 img{
+    height: 55%;
+    width: 50%;
+  
+    float:right;
+    position:relative;
+    top:0%
+}
+.desktop3 .solar-benefits
+{
+   
+ width: 40%;
+ display: inline-block;
+  
+    
+
+}
+.desktop3 p{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 4%;
+    text-align: center;
+    color: #828282;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+.desktop3 h3{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 2.25rem;
+    color: #162A46;
+    line-height: 1.9 rem;
+}
+@media screen and (min-width:320px ) and (max-width:960px){
+    .desktop3 h1{
+        font-size: 5rem;
+    }
+    .desktop3 p{
+        padding: 0;
+        font-size: 1.3rem;
+    }
+    .desktop3 p:nth-child(2),.desktop3 p:nth-child(3){
+        text-align: justify;
+        padding:0% 10% 0% 10%;
+        width: 90vw;
+        
+    }
+.desktop3 img{
+    width: 60%;
+    max-height:100% ;
+    float:right;
+
+    }
+    .desktop3 h3{
+        font-family: Lora;
+        font-style: normal;
+        font-weight: normal;
+        margin: 4% 2% 0%;
+        text-align: center;
+        font-size: 1.8rem;
+        color: #162A46;
+        
+    }
+}
+@media screen and (min-width:1900px) {
+    .desktop3 h1{
+        padding-left: 14vw;
+        margin-bottom: 1%;
+    }
+    .desktop3 p{
+        padding-left: 30%;
+        padding-right: 29%;
+
+    }
+    .desktop3 h3{
+        margin-top: 5%;
+    }
+    .desktop3 img{
+        bottom:4vw;
+        height: 60vh;
+        width: 60vw;
+    }
+    
+}

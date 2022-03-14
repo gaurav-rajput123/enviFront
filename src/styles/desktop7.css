@@ -1,0 +1,116 @@
+.desktop7{
+    background-color: rgba(137, 190, 239, 0.1);
+    margin-top: 2%;
+}
+.desktop7 ul{
+    list-style:square;
+    font-family: Lora;
+    font-style: normal;
+    margin: 0 auto;
+    font-size: 120%;
+    padding-left: 5%;
+    text-align: justify;
+    margin-left: 20%;
+    padding-right: 5%;
+
+}
+
+.desktop7 li::marker
+{
+    font-size:1.8rem;
+    
+    color: #89BEEF;
+}
+.download-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+.app-view{
+    height: 60vw;
+}
+.app-view img{
+    position: relative;
+    flex: 2;
+    height: 50vw;
+    top:7%;
+    margin-left: 10%;
+   
+}
+.download-app
+{
+    text-align: center;
+    flex: 1;
+
+}
+.download-app h1
+{
+    font-family: Libre Caslon Display;
+font-style: normal;
+font-size: 600%;
+font-weight: 400;
+padding-left: 10vw;
+}
+.download-app h3{
+    font-family: Old Standard TT;
+font-style: normal;
+font-size: 150%;
+color: #162A46
+}
+.download-app h4{
+    font-family: Lora;
+font-style: normal;
+font-weight: bold;
+}
+.desktop7 a img
+{
+    top:20px;
+    height: 10%;
+    display: inline-block;
+    margin-left:2vw;
+}
+#applestore{
+    height:58px;
+    padding-bottom: 2.1vh;
+}
+
+
+
+@media screen and (min-width:320px ) and (max-width:960px){
+    .download-wrapper{
+        flex-direction: column;
+    }
+    .download-app h1{
+        padding-left: 0;
+    }
+    .app-view {
+        height: 50vh;
+    }
+    .app-view img{
+        width:60vw;
+        height: 50vh;
+        margin-left: 20vw;
+        margin-top: 5vw;
+    }
+    .desktop7 a img
+    {
+        width:50vw;
+        height: 20vw;
+    }
+    .desktop7 ul{
+        padding-left: 0vw;
+    margin-right: 15vw;
+    }
+    #applestore{
+        padding-bottom: 1vw;
+        height: 58px;
+        width: 185px;
+        padding: 2vh 4vw;
+    }
+
+}
+
+
+
+
+

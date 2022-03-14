@@ -1,0 +1,340 @@
+.invest{
+    font-family: 'Rufina';
+    --mobileH1:3rem;
+    --mobileH2:1.5rem;
+    --mobileH3:1rem;
+    padding-top: 8vw;
+}
+#solarInvestment
+{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #162A46;;
+}
+#sayWht{
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 2vw;
+}
+.invest main h2{
+    font-family: 'Rufina';
+    font-weight: 700;
+    color:#4F4F4F;;
+    text-align: center;
+    font-size: 2.25rem;
+}
+.invest main img{
+    display: block;
+    margin: 10vmin auto;
+    width: 60%;
+    height: auto;
+}
+.invest main figcaption{
+    text-align: center;
+    color: #990000;
+    font-size: 2.25rem;
+}
+.riskPyramid
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: #162A46;
+}
+.riskPyramid div{
+
+    align-self: center;
+flex:1;
+
+text-align: center;
+color: white;
+font-size: 1.5rem;
+justify-self: center;
+height: 90%;
+
+}
+.riskPyramid div:nth-of-type(2)
+{
+    border-left: #C4C4C4 solid 5px;
+    border-right: #C4C4C4 solid 5px;
+    
+}
+.number{
+    font-family: 'Lora';
+    color:#89BEEF;
+}
+.riskPyramid div p{
+    padding: 1.5vw 5vw;
+    font-weight: 400;
+}
+#pyramid{
+    width: 100%;
+    height: auto;
+}
+.solarPyramid {
+    text-align: center ;
+    
+}
+.solarPyramid h1
+{
+    font-size: 6rem;
+    font-weight: 400;
+}
+.solarPyramid h3{
+    font-size: 2.25rem;
+    color: #4F4F4F;
+    font-weight: 400;
+}
+.solarPyramid img{
+    width: 100%;
+    height: auto;
+}
+.dyk{
+    background-color: rgba(130, 130, 130, 0.4);
+    text-align: center;
+}
+.dyk h1{
+    font-family: 'Libre Caslon Display';
+    font-size: 4rem;
+    font-weight: 400;
+}
+.dyk p{
+    font-size: 1.875rem;
+    padding: 2vw 20vw;
+}
+.brkEven{
+    text-align: center;
+}
+.brkEven h1{
+    font-size: 6rem;
+}
+.brkEven p{
+    font-size: 2.25rem;
+    padding: 2vw 30vw;
+    color: #4F4F4F;
+}
+.brkEven img{
+    height: auto;
+    width: 40%;
+}
+.brkEven h2{
+    color: #007907;
+    font-family: 'Libre Caslon Display';
+    font-size: 4rem;
+    font-weight: 400;
+}
+.calBrk{
+    display: flex;
+    background-color: #162A46;
+    color: white;
+    justify-content: space-between;
+    font-size: 1.875rem;
+    font-family:'Arial';
+   
+}
+.calBrk div{
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.calBrk li{
+    font-weight: 100;
+    padding: 2vw;
+}
+.calBrk p{
+    display: block;
+}
+#p1{
+    
+    grid-area: p1;
+}
+#p2{
+    grid-area: p2;
+    
+}
+#p2 span{
+    color: #CD0303;
+}
+#p3{
+grid-area: p3;
+background-color: #f5f5f5;
+color: black;
+
+}
+#p3 span{
+    color:#007907;
+}
+#p4
+{
+    grid-area: p4;
+   
+}
+#p4 span{
+    color: rgb(95, 14, 226);
+    font-size: 2.5rem;
+}
+.FD{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 0.2fr 0.1fr 0.5fr 0.5fr;
+    grid-template-areas: "H1 H1"
+    ". ."
+    "p1 p2"
+    "p3 p4";
+    align-items: stretch;
+}
+.FD h1{
+    color: #CD0303;
+    font-size: 4rem;
+    font-family: 'Libre Caslon Display';
+    text-align: center;
+    padding: 2vw 4vw;
+    font-weight: 500;
+    grid-area: H1;
+    margin-bottom: 0;
+
+}
+.FD p{
+    background-color: #162A46;
+    color: white;
+    margin: 1vw 3vw;
+    padding: 3vw 5vw;
+    text-align: center;
+    font-size: 2.25rem;
+}
+#solarSaving{
+    margin-top: 4vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+    margin-bottom: 2vw;
+}
+#solarVFD
+{
+    width: 100%;
+    height: auto;
+}
+.chooseWisely{
+    text-align: center;
+    color:#4F4F4F;
+    font-size:2.25rem;
+}
+.chooseWisely h2{
+    font-weight: 400;
+}
+.chooseWisely p{
+    font-size: 0.8rem;
+}
+.chooseWisely h1{
+    color: #162A46;
+    font-family: Libre Caslon Display;
+    font-size: 5rem;
+    font-weight: 400;
+}
+.chooseWisely img{
+    height: auto;
+    width: 20vmax;
+}
+.chooseWisely p:nth-of-type(2)
+{
+    font-size: 1.875rem;
+    background-color:#6AA84F;
+    color: white;
+    font-weight: 400;
+    padding: 4vw 10vw;
+}
+
+@media screen and (min-width:320px) and (max-width:960px) {
+    #solarInvestment{
+        font-size: 1.5rem;
+    }
+    #sayWht
+    {
+        font-size: 3rem;
+    }
+    .invest main h2{
+        font-size: 1.25rem;
+    }
+    .invest main figcaption{
+        
+        font-size: 1.25rem;
+    }
+    .riskPyramid{
+        flex-direction: column;
+    }
+    .riskPyramid div{
+
+    align-self: center;
+    flex:1;
+    
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    justify-self: center;
+    height: 90%;
+    
+    }
+    .riskPyramid div:nth-of-type(2)
+    {
+    border: none;
+    
+    }
+    .solarPyramid h1{
+        font-size: var(--mobileH1);
+
+    }
+    .solarPyramid h3{
+        font-size: var(--mobileH2);
+    }
+    .brkEven h1{
+        font-size: 3rem;
+    }
+    .brkEven p{
+        font-size: 1.125rem;
+    }
+    .dyk h1{
+        font-size: 2rem;
+    }
+    .dyk p{
+        font-size: 0.9rem;
+    }
+    .calBrk{
+        font-size:1rem;
+    }
+    .calBrk div{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .FD{
+        grid-template-columns:1fr;
+        grid-template-rows: 0.2fr 0.1fr 0.2fr 0.2fr 0.2fr;
+        grid-template-areas: "H1"
+        ". "
+        "p1"
+        "p2"
+        "p3"
+        "p4";
+    }
+    .FD h1{
+        font-size: 2rem;
+    }
+    
+    .FD p{
+        font-size: 1rem;
+    }
+    #p4 span{
+        
+        font-size: 1.4rem;
+    }
+    .chooseWisely{
+        font-size: 1.15rem;
+    }
+    .chooseWisely p:nth-of-type(2)
+{
+    font-size: 1rem;
+    
+   
+}
+}

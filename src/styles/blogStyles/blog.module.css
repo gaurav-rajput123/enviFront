@@ -1,0 +1,109 @@
+.blog{
+    font-family: 'Rufina';
+    --h1Color:#162A46;
+    --h1Size:6rem;
+    --psize:1.8vmax;
+    padding-top: 2vw;
+}
+.blog h1{
+ text-align: center;
+ color: var(--h1Color);
+ font-size: var(--h1Size);
+
+}
+#heroImg{
+    width: 80%;
+    /* height: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.blog p{
+    font-size: var(--psize);
+    text-align: center;
+    padding: 2vw 5vw;
+}
+.recentPosts{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    gap:5vw 10vw;
+    margin: 0 3vmax 3vmin 3vmax;
+}
+.recentPosts div{
+font-size: var(--psize);
+text-align: center;
+flex-basis: 20%;
+flex-shrink: 1;
+
+background-color:#90C1BF;
+text-align: center;
+border-radius: 10px/10px;
+height: 35vmin;
+overflow: hidden;
+
+
+
+}
+#buttonLayout
+{
+    text-align: right;
+    margin-bottom: 7vmin;
+    
+}
+ button{
+    font-family: 'Rufina';
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+    
+.activeButton
+{
+    background-color:#162A46;
+    font-size: 1.8rem;
+    color: white;
+    
+}
+.recentPosts p{
+    font-size: 1.4rem;
+    color: white;
+   
+    
+}
+.otherImages{
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: 0 auto 5vmin auto;
+}
+#lastImage{
+    height: 80vh;
+    width: auto;
+    display: block;
+    margin:0 auto;
+}
+@media screen and (min-width:320px) and (max-width:960px) {
+   .blog{
+    --psize:1.5rem
+   }
+    .recentPosts div{
+        flex-basis: unset;
+    } 
+
+    
+}
+
+@media (hover:hover) and (pointer:fine)
+{
+    button:hover{
+        background-color:#162A46;
+        color:white;
+    
+    }
+}

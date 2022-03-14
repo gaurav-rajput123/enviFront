@@ -1,0 +1,126 @@
+.desktop6
+{
+    margin-top: 10px;
+  
+}
+.product-range{
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 97vw;
+    height: 100vh;
+    background-image: url("../ProductRange.jpg");
+    margin-left: 1vw;
+   
+
+}
+.product-range h5{
+    margin-top: 10vw;
+    text-align: right;
+    font-size: 2.25rem;
+    color: #4F4F4F;
+    font-family: Old Standard TT;
+    font-style: normal;
+    font-weight: bold;
+}
+#product-range-h1
+{
+   
+    
+   
+    font-family: Libre Caslon Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.25rem;
+    text-align: right;
+    padding-top: 10vw;
+    
+    
+}
+
+.product-type
+{
+    display: flex;
+}
+#Residential
+{
+    background-color:rgba(137, 190, 239, 0.3) ;
+    margin: 4%;
+    margin-bottom: 1%;
+    padding: 4%;
+    border-radius: 10px/10px;
+}
+#Commercial
+{
+    background-color: rgba(137, 190, 239, 1);
+    margin: 4%;
+    margin-bottom: 1%;
+    padding: 4%;
+    border-radius: 10px/10px;
+}
+.product-type h1,.product-type p
+{
+    text-align: center;
+}
+.product-type h1
+{
+    font-family: Fondamento;
+    font-style: normal;
+    font-weight:400;
+    font-size: 300%;
+}
+.product-type p
+{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+}
+#Residential h1,#Commercial p
+{
+    color: #fff;
+}
+.desktop6 button{
+    background-color: #162A46;
+    margin-left: 44%;
+    text-align: center;
+    height: 4%;
+    width:13vw;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 10px/10px;
+    font-family: Lora;
+    font-style: normal;
+}
+
+@media screen and (min-width:320px ) and (max-width:960px){
+    .product-range{
+      
+        width: 90vw;
+        
+        height: 30vh;
+        margin-left: 4vw;
+    }
+    .product-range h5{
+        font-size: 0.8rem;
+    }
+    .product-type{
+        flex-direction: column;
+    }
+    #product-range-h1{
+        
+        font-size: 2.8rem;
+       
+       
+    }
+    .desktop6 button{
+        width: 40vw;
+        margin-left: 30vw;
+        height: 10vw;
+       
+    }
+}
+@media screen and (min-width:1900px) {
+    .product-range h5{
+        margin-top: 20vw;
+    }
+    
+}
