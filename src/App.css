@@ -8,6 +8,8 @@
 @import "./styles/footer.css";
 @import "./styles/faq.css";
 
+
+
 nav {
     display: flex;
     flex-direction: row;
@@ -214,7 +216,10 @@ nav a:visited,nav a:link{
     padding:1vw 1vw;
 }
 
-
+.hoverStop :hover{
+    background-color: none !important;
+    background: none !important;
+}
   
   /* if backdrop support: very transparent and blurred */
  

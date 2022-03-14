@@ -104,6 +104,13 @@ function Nav() {
           </Link>
         </li>
 
+        <li>
+          <a className="hoverStop" href="https://www.envinovastore.com"><button style={{
+            backgroundColor: "#f5a9a9"
+          }} >Go to Store</button></a>
+            
+          {/* </Link> */}
+        </li>
 
       </ul>
    
